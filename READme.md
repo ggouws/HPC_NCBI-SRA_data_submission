@@ -359,7 +359,7 @@ genome assembly)
      the instructions for uploading via FTP are provided, it appears as
      though FTP transfer may no longer be supported or easily accomplished.
 
-     When you select this approach in order to use Aspera Connect, a button
+When you select this approach in order to use Aspera Connect, a button
      will appear for you to request a pre-load folder. You should also see
      three expandable boxes with general file upload recommendations and
      instructions for the Aspera command line and FTP uploads. If you don’t
