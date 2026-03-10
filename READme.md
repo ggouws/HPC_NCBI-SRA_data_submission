@@ -1,58 +1,6 @@
 > <img src="media/image1.png" style="width:3.13761in;height:1.31733in" />
 >
-> **SOP0XX: Submitting sequence data to the NCBI - SRA**
-
-<table style="width:99%;">
-<colgroup>
-<col style="width: 40%" />
-<col style="width: 58%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Current Version:</strong></th>
-<th style="text-align: left;">V1</th>
-</tr>
-<tr>
-<th style="text-align: left;"><p><strong>Prepared by:</strong></p>
-<p><strong>(</strong>Name and job title<strong>)</strong></p></th>
-<th style="text-align: left;">Gavin Gouws (Research Associate)</th>
-</tr>
-<tr>
-<th style="text-align: left;"><strong>Signature and Date:</strong></th>
-<th style="text-align: left;"></th>
-</tr>
-<tr>
-<th style="text-align: left;"><p><strong>Reviewed by:</strong></p>
-<p><strong>(</strong>Name and job title<strong>)</strong></p></th>
-<th style="text-align: left;"></th>
-</tr>
-<tr>
-<th style="text-align: left;"><strong>Signature and Date:</strong></th>
-<th style="text-align: left;"></th>
-</tr>
-<tr>
-<th style="text-align: left;"><strong>Effective Date:</strong></th>
-<th style="text-align: left;"></th>
-</tr>
-<tr>
-<th style="text-align: left;"><strong>Next Review Date:</strong></th>
-<th style="text-align: left;"></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-
-# **Version Control**
-
-# 
-
-| **Version** | **Change log**   | **Date effective** |
-|-------------|------------------|--------------------|
-| **V1**      | Original version |                    |
-|             |                  |                    |
-
-# 
+> **NEOF Protocol: Submitting sequence data to the NCBI - SRA**
 
 # **Scope and Applicability**
 
@@ -68,13 +16,6 @@ NCBI - Sequence Read Archive (SRA).
 You would need access to your sequence data and related metadata or have
 the right to access and submit these if completing the submission on
 behalf of someone else.
-
-# **Health and Safety** 
-
-This procedure should be performed in accordance with the relevant
-Health and Safety guidelines with respect to working with Display Screen
-Equipment at the Department of Biosciences, University of Sheffield or
-similar guidelines from your own institution.
 
 # 
 
