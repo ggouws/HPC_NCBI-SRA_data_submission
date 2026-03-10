@@ -116,9 +116,7 @@ behalf of someone else.
     A few of the more common templates are available for download from this
     repository:
 
-     - [<u>Template for multiple sequence read files from a model
-organism</u>](https://docs.google.com/spreadsheets/d/1jeIcFDJvJKnaKeCEP-T0Lio59_c6dCon/edit?usp=sharing&ouid=103704150987277628350&rtpof=true&sd=true)
-(e.g., WGS, ddRAD, RNAseq, genome assembly)
+     - *"Model.organism.animal.1.0.xlsx"* is suitable if you are working with a model organism or animal, where each sample is an individual animal species (these need not necessarily be the same species) and could cover WGS, ddRAD, RNAseq or genome assembly projects.
 
      - Template for multiple sequence read files from an individual or
 individuals of the same species (e.g., WGS or ddRAD popgenomics, RNAseq,
