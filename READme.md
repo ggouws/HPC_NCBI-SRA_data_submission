@@ -146,7 +146,8 @@ genome assembly)
     by filling in and submitting a template Excel spreadsheet or
     tab-delimited text file (see Step 17).
 
-    The template Excel spreadsheet is available to download from this repository
+    The template Excel spreadsheet (*"SRA_metadata.xlsx"*) is available to
+    download from this repository.
     
     If you already have a BioProject accession number, this will need to
     be provided (as above). If you are creating a new BioProject with this
