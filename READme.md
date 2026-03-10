@@ -7,6 +7,7 @@
 
 **NEOF Protocol: Submitting sequence data to the NCBI - SRA**
 
+
 # **Scope and Applicability**
 
 This protocol outlines the process for submitting sequence data
@@ -16,15 +17,16 @@ for Genomic Research - University of Liverpool or through third-party
 service providers, to and making data publicly available through the
 NCBI - Sequence Read Archive (SRA).
 
+
 # **Prerequisites**
 
 You would need access to your sequence data and related metadata or have
 the right to access and submit these if completing the submission on
 behalf of someone else.
 
-# 
 
 # **Protocol**
+
 
 1)  An overview of the submission process using the NCBI - SRA
     Submission Portal, with additional information and video tutorials,
@@ -82,7 +84,7 @@ behalf of someone else.
   yourself. You can also request this service after submitting your data
   (see below). More information is available here:
 
-    [<u>https://ncbiinsights.ncbi.nlm.nih.gov/2023/02/02/scrubbing-human-sequences-sra-submissions/</u>](https://ncbiinsights.ncbi.nlm.nih.gov/2023/02/02/scrubbing-human-sequences-sra-submissions/)
+  [<u>https://ncbiinsights.ncbi.nlm.nih.gov/2023/02/02/scrubbing-human-sequences-sra-submissions/</u>](https://ncbiinsights.ncbi.nlm.nih.gov/2023/02/02/scrubbing-human-sequences-sra-submissions/)
 
 
 4)  Gather and prepare all required project and sample information
@@ -111,13 +113,14 @@ behalf of someone else.
     environmental/mixed DNA (metagenetics, metabarcoding and metagenomic)
     studies, targeted amplicons and genomic sequences.
 
-    A few of the more common templates are linked provided for download here:\
-\
-- [<u>Template for multiple sequence read files from a model
+    A few of the more common templates are available for download from this
+    repository:
+
+     - [<u>Template for multiple sequence read files from a model
 organism</u>](https://docs.google.com/spreadsheets/d/1jeIcFDJvJKnaKeCEP-T0Lio59_c6dCon/edit?usp=sharing&ouid=103704150987277628350&rtpof=true&sd=true)
 (e.g., WGS, ddRAD, RNAseq, genome assembly)
 
-\- Template for multiple sequence read files from an individual or
+     - Template for multiple sequence read files from an individual or
 individuals of the same species (e.g., WGS or ddRAD popgenomics, RNAseq,
 genome assembly)
 
@@ -143,8 +146,8 @@ genome assembly)
     by filling in and submitting a template Excel spreadsheet or
     tab-delimited text file (see Step 17).
 
-    The template Excel spreadsheet is available to download here
-
+    The template Excel spreadsheet is available to download from this repository
+    
     If you already have a BioProject accession number, this will need to
     be provided (as above). If you are creating a new BioProject with this
     submission, leave that column empty.
@@ -187,7 +190,7 @@ genome assembly)
     This does not apply for the tar archives of .fast5 files of ONT data.
 
 
-6)  Using your preferred browser, go directly to the NCBI - SRA
+7)  Using your preferred browser, go directly to the NCBI - SRA
     Submission Portal:
 
 > [<u>https://submit.ncbi.nlm.nih.gov/subs/sra/</u>](https://submit.ncbi.nlm.nih.gov/subs/sra/)
