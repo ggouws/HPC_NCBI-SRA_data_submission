@@ -5,7 +5,7 @@
     alt="NEOF Icon"
     style="left; margin-right: 10px;" />
 
-> **NEOF Protocol: Submitting sequence data to the NCBI - SRA**
+**NEOF Protocol: Submitting sequence data to the NCBI - SRA**
 
 # **Scope and Applicability**
 
