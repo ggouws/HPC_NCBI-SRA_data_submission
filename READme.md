@@ -25,13 +25,15 @@ behalf of someone else.
     Submission Portal, with additional information and video tutorials,
     is available here:
 
-     [<u>https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/</u>](https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/)
+    [<u>https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/</u>](https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/)
+
 
 2)  Source all your data and metadata (detailed further below) and
     prepare these ahead of your submission. The submission process does
     allow you to provide information interactively, but it is
     time-consuming and demanding. Using pre-prepared templates is more
     efficient.
+
 
 3)  Source your raw sequence data and prepare this to be uploaded.
 
@@ -72,19 +74,20 @@ behalf of someone else.
   other applications, this might require additional/targeted screening.
   NCBI provides a tool (Human Scrubber, or the Human Read Removal Tool),
   which can be downloaded from GitHub and DockerHub, to do this
-  yourself. You can also request this service when submitting your data
+  yourself. You can also request this service after submitting your data
   (see below). More information is available here:
 
-> [<u>https://ncbiinsights.ncbi.nlm.nih.gov/2023/02/02/scrubbing-human-sequences-sra-submissions/</u>](https://ncbiinsights.ncbi.nlm.nih.gov/2023/02/02/scrubbing-human-sequences-sra-submissions/)
+    [<u>https://ncbiinsights.ncbi.nlm.nih.gov/2023/02/02/scrubbing-human-sequences-sra-submissions/</u>](https://ncbiinsights.ncbi.nlm.nih.gov/2023/02/02/scrubbing-human-sequences-sra-submissions/)
+
 
 4)  Gather and prepare all required project and sample information
     needed to complete the mandatory fields in your submission. This
     includes:
 
-The **BioProject accession number** (if already available and relevant).
-The BioProject is an umbrella record containing the overall details and
-aims of your research project or a larger project that yours may form
-part of.
+    The **BioProject accession number** (if already available and relevant).
+    The BioProject is an umbrella record containing the overall details and
+    aims of your research project or a larger project that yours may form
+    part of.
 
 A **project title**: A short project title that will be suitable for
 public display.
