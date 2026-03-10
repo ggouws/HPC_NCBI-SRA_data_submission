@@ -327,7 +327,7 @@ genome assembly)
      Then, click “Continue”
 
 
-18) You will now need to provide the SRA Metadata. This is the
+18) You need to provide the SRA Metadata. This is the
     information directly related to your library preparation and the
     sequence data you wish to upload. Again, there are options for
     populating a table online or downloading an Excel or tab-delimited
@@ -353,13 +353,14 @@ genome assembly)
      your data will be done in the background and you will be notified by
      email of any issues. Select this.
 
+
 19.1) **Through FTP or an Aspera Connect command-line preload.** This
      is the **recommended approach** as you can upload your data directly
      from Stanage or the HPC on which you are analysing your data. Although
      the instructions for uploading via FTP are provided, it appears as
      though FTP transfer may no longer be supported or easily accomplished.
 
-When you select this approach in order to use Aspera Connect, a button
+     When you select this approach in order to use Aspera Connect, a button
      will appear for you to request a pre-load folder. You should also see
      three expandable boxes with general file upload recommendations and
      instructions for the Aspera command line and FTP uploads. If you don’t
@@ -374,12 +375,13 @@ When you select this approach in order to use Aspera Connect, a button
      can submit these interactively or place them in a submission/bash
      script (see below). The code should look like something like this:
 
+
      ```
      ascp -i /path/to/key/aspera.openssh -QT -l100m -k1 -d /path/name_of_folder_with_data
      subasp@upload.ncbi.nlm.nih.gov:uploads/username_e-mail_address_OyA0dig4
      ```
      
-**If you are uploading your data from Stanage**, you will need to
+     **If you are uploading your data from Stanage**, you will need to
      activate the aspera conda environment to load the Aspera Connect CLI.
      Log on to Stanage through your terminal, start an interactive session
      on a worker node and navigate to the directory which houses the
