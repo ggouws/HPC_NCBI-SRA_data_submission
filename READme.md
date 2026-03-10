@@ -372,11 +372,12 @@ genome assembly)
      receiving directory and enables your submission. The expandable box
      will also have command line instructions to complete your upload. You
      can submit these interactively or place them in a submission/bash
-     script (see below). The code should look like something like this:\
-> \
-> ascp -i /path/to/key/aspera.openssh -QT -l100m -k1 -d
-> /path/name_of_folder_with_data
-> subasp@upload.ncbi.nlm.nih.gov:uploads/username_e-mail_address_OyA0dig4
+     script (see below). The code should look like something like this:
+
+     ```
+     ascp -i /path/to/key/aspera.openssh -QT -l100m -k1 -d /path/name_of_folder_with_data
+     subasp@upload.ncbi.nlm.nih.gov:uploads/username_e-mail_address_OyA0dig4
+     ```
      
 **If you are uploading your data from Stanage**, you will need to
      activate the aspera conda environment to load the Aspera Connect CLI.
