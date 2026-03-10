@@ -25,7 +25,7 @@ behalf of someone else.
     Submission Portal, with additional information and video tutorials,
     is available here:
 
-> [<u>https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/</u>](https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/)
+ [<u>https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/</u>](https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/)
 
 2)  Source all your data and metadata (detailed further below) and
     prepare these ahead of your submission. The submission process does
