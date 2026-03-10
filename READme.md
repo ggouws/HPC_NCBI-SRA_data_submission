@@ -89,24 +89,24 @@ behalf of someone else.
     aims of your research project or a larger project that yours may form
     part of.
 
-A **project title**: A short project title that will be suitable for
-public display.
+    A **project title**: A short project title that will be suitable for
+    public display.
 
-A **public description**: A brief paragraph description of the research,
-study goals and relevance (4 000 character limit).
+    A **public description**: A brief paragraph description of the research,
+    study goals and relevance (4 000 character limit).
 
-**BioSample attributes**/information. The BioSample accession is a
-record that holds the biological and physical information about your
-sample. You can provide this information by populating a table online or
-by filling out and uploading a template Excel spreadsheet or
-tab-delimited text file. The relevant templates are provided for you
-according to your chosen submission tool (see Step 16 below). The tool
-and template will depend on the study, e.g., single species (WGS or
-ddRAD population genomics or genome assemblies), multiple species or
-environmental/mixed DNA (metagenetics, metabarcoding and metagenomic)
-studies, targeted amplicons and genomic sequences.
+    **BioSample attributes/information**. The BioSample accession is a
+    record that holds the biological and physical information about your
+    sample. You can provide this information by populating a table online or
+    by filling out and uploading a template Excel spreadsheet or
+    tab-delimited text file. The relevant templates are provided for you
+    according to your chosen submission tool (see Step 16 below). The tool
+    and template will depend on the study, e.g., single species (WGS or
+    ddRAD population genomics or genome assemblies), multiple species or
+    environmental/mixed DNA (metagenetics, metabarcoding and metagenomic)
+    studies, targeted amplicons and genomic sequences.
 
-A few of the more common templates are linked here:\
+    A few of the more common templates are linked provided for download here:\
 \
 - [<u>Template for multiple sequence read files from a model
 organism</u>](https://docs.google.com/spreadsheets/d/1jeIcFDJvJKnaKeCEP-T0Lio59_c6dCon/edit?usp=sharing&ouid=103704150987277628350&rtpof=true&sd=true)
@@ -116,20 +116,21 @@ organism</u>](https://docs.google.com/spreadsheets/d/1jeIcFDJvJKnaKeCEP-T0Lio59_
 individuals of the same species (e.g., WGS or ddRAD popgenomics, RNAseq,
 genome assembly)
 
-In the respective templates, green fields are mandatory (but “NA”,
-“missing” or “not collected” are valid entries), at least one blue field
-needs to be completed, and yellow fields are optional. If you already
-have a BioProject accession number, this will need to be captured here.
-If you are creating one with this submission, this column can be left
-blank. A full explanation of the fields is not provided here, because
-this varies by application, tool and template, but explanations are
-available online at that particular step (see Step 16).
+    In the respective templates, green fields are mandatory (but “NA”,
+    “missing” or “not collected” are valid entries), at least one blue field
+    needs to be completed, and yellow fields are optional. If you already
+    have a BioProject accession number, this will need to be captured here.
+    If you are creating one with this submission, this column can be left
+    blank. A full explanation of the fields is not provided here, because
+    this varies by application, tool and template, but explanations are
+    available online at that particular step (see Step 16).
 
-Please give due consideration as to what information you provide here,
-weighing up FAIR data and Open Science principles, data security and
-privacy, and funder and stakeholder obligations/interests, alongside the
-risk to the research should the information be made available prior to
-publication.
+    Please give due consideration as to what information you provide here,
+    weighing up FAIR data and Open Science principles, data security and
+    privacy, and funder and stakeholder obligations/interests, alongside the
+    risk to the research should the information be made available prior to
+    publication.
+
 
 5)  Gather and prepare the SRA Metadata for your submission. The SRA
     Metadata relates to your library preparation and the sequence data
@@ -137,49 +138,49 @@ publication.
     by filling in and submitting a template Excel spreadsheet or
     tab-delimited text file (see Step 17).
 
-> The template Excel spreadsheet is available
-> [<u>here</u>](https://docs.google.com/spreadsheets/d/1GspE9LAHw5pbF9GehfDxqDxaJMnKHMNV/edit?usp=sharing&ouid=103704150987277628350&rtpof=true&sd=true).
->
-> If you already have a BioProject accession number, this will need to
-> be provided (as above). If you are creating a new BioProject with this
-> submission, leave that column empty.
->
-> If you have BioSample accessions for these samples, these will need to
-> be captured in the “Sample names” column (as “SAMN#”). If you are
-> creating new BioSample records with this submission, you will need to
-> populate the “Sample name” column with the sample names that you have
-> used in the BioSamples attributes Excel spreadsheet or text document.
-> These must match identically, and sample names can’t be duplicated (in
-> a submission or across your account).
->
-> Each row in the template refers to an *Experiment*, which is a unique
-> combination of: *sample* + *library* + *sequencing strategy* +
-> *layout* + *instrument model*
->
-> Each *Experiment* should be given a unique *library_ID*.
->
-> Only one *Run* is allowed per *Experiment*. If identical libraries are
-> sequenced again, all *Experiment* entries need to be placed under the
-> same *Run*. This is done by placing all the file names of sequence
-> data from that *Experiment* in the same row.
->
-> File names of paired-end sequencing are always placed in the same row
-> (rather than duplicating rows).
->
-> All file names need to match the file names of the data you wish to
-> upload exactly and in full, including the extensions.
->
-> All file names in a submission must be unique with respect to the
-> named files themselves. If data from multiple samples or *Experiments*
-> are contained within the same sequence data file (e.g., in ddRAD
-> studies or additionally multiplexed metabarcoding data), these will
-> need to be demultiplexed prior to submission. You cannot upload data
-> files that have the same name (e.g., identically named files from
-> different sequencing runs).
->
-> If you have archived your files with tar, you need to provide the
-> names of the individual archived files rather than the archive itself.
-> This does not apply for the tar archives of .fast5 files of ONT data.
+    The template Excel spreadsheet is available to download here
+
+    If you already have a BioProject accession number, this will need to
+    be provided (as above). If you are creating a new BioProject with this
+    submission, leave that column empty.
+
+    If you have BioSample accessions for these samples, these will need to
+    be captured in the “Sample names” column (as “SAMN#”). If you are
+    creating new BioSample records with this submission, you will need to
+    populate the “Sample name” column with the sample names that you have
+    used in the BioSamples attributes Excel spreadsheet or text document.
+    These must match identically, and sample names can’t be duplicated (in
+    a submission or across your account).
+
+    Each row in the template refers to an *Experiment*, which is a unique
+    combination of: *sample* + *library* + *sequencing strategy* +
+    *layout* + *instrument model*
+
+    Each *Experiment* should be given a unique *library_ID*.
+
+    Only one *Run* is allowed per *Experiment*. If identical libraries are
+    sequenced again, all *Experiment* entries need to be placed under the
+    same *Run*. This is done by placing all the file names of sequence
+    data from that *Experiment* in the same row.
+
+    File names of paired-end sequencing are always placed in the same row
+    (rather than duplicating rows).
+
+    All file names need to match the file names of the data you wish to
+    upload exactly and in full, including the extensions.
+
+    All file names in a submission must be unique with respect to the
+    named files themselves. If data from multiple samples or *Experiments*
+    are contained within the same sequence data file (e.g., in ddRAD
+    studies or additionally multiplexed metabarcoding data), these will
+    need to be demultiplexed prior to submission. You cannot upload data
+    files that have the same name (e.g., identically named files from
+    different sequencing runs).
+
+    If you have archived your files with tar, you need to provide the
+    names of the individual archived files rather than the archive itself.
+    This does not apply for the tar archives of .fast5 files of ONT data.
+
 
 6)  Using your preferred browser, go directly to the NCBI - SRA
     Submission Portal:
