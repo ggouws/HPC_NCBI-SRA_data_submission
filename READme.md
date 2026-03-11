@@ -1,7 +1,7 @@
-<img src="images/NEOF.png"
+<img src="images/shef_logo.png"
      alt="Sheffield University Icon"
      style="left; margin-right: 10px;" />
-<img src="images/shef_logo.png"
+<img src="images/NEOF.png"
     alt="NEOF Icon"
     style="left; margin-right: 10px;" />
 
